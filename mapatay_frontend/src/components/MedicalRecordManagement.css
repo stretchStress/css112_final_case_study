@@ -1,0 +1,62 @@
+.record-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fdfdfd;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .record-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  
+  .record-form label {
+    font-weight: bold;
+  }
+  
+  .record-form input,
+  .record-form textarea {
+    padding: 8px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .record-form button {
+    align-self: flex-start;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .table-wrapper {
+    overflow-x: auto;
+  }
+  
+  .record-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .record-table th,
+  .record-table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .record-table th {
+    background-color: #f0f0f0;
+  }
+  
+  .record-table button {
+    margin-right: 8px;
+    padding: 4px 8px;
+  }
+  
